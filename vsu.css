@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* NAVBAR */
+#navbar.navbar-shrink{
+    overflow: hidden;
+    background-color: white;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(45,45,45,.1);
+}
+
+.navright{
+    display: flex;
+    justify-content: right;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.navbar-brand a{
+    font-size: 15px;
+    color: black;
+}
+.navbar-brand a img{
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.navright a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.active:visited{
+    color: darkred;
+}
+
+#navbar a:hover {
+    color:darkred;
+    text-decoration: none;
+}
+
+/* BODY */
+.main {
+    margin: 20px;
+}
+
+/* HEADER */
+header{
+    background-image: url('./img/vsucover.png'), linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile img{
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: white 1px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(51,51,51);
+    line-height: 24px;
+    border-bottom: 2px solid #e6e6e6;
+    font-family:'source sans pro','san-serif';
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.row img{
+    width: 25vw;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    width: 70%;
+}
+
+  
+  .introduction img {
+    flex: 1;
+    width: 30%;
+    height: 30%;
+  }
+
+  .text {
+    flex: 1;
+    text-align: center;
+    font-size: larger;
+  }
+  .text h3{
+    font-weight: 800;
+    color: darkred;
+  }
+  .text p {
+    text-align: justify;
+  }
+
+.dangky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    font-size: larger;
+}
+
+.dangky {
+    display: flex;
+    align-items: center;
+    
+}
+.section1 h2, .section2 h2 {
+    font-size: 24px;
+    color: darkred;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+
+.section1 img, .introduction img {
+    width: 30%;
+    height: auto;
+}
+
+body {
+    -ms-overflow-style: none; /* cho  Internet Explorer, Edge */
+    scrollbar-width: none; /* cho Firefox */
+    overflow-y: scroll; 
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* cho Chrome, Safari, and Opera */
+  }
+
+
+/* CARD   */
+  .box {
+    background: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    position: relative;
+  }
+  
+  .box-label {
+    display: grid;
+    place-items: center;
+  }
+  
+  .box-label {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    font-size: 14px;
+    letter-spacing: 0.125em;
+  }
+  
+  
+/* FOOTER */
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: #000000;
+    color: rgb(207, 207, 207);
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer-text{
+    color: darkred;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* NAVBAR */
+#navbar.navbar-shrink{
+    overflow: hidden;
+    background-color: white;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(45,45,45,.1);
+}
+
+.navright{
+    display: flex;
+    justify-content: right;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.navbar-brand a{
+    font-size: 15px;
+    color: black;
+}
+.navbar-brand a img{
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.navright a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color:darkred;
+    text-decoration: none;
+}
+.active:visited {
+    color: darkred;
+  }
+
+.title{
+    /* font-size: 60px; */
+    font-weight: 700;
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.content img{
+    height: 300px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.form{
+    width: 500px;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+    border: 3px;
+    color: #bbb;
+}
+input{
+    padding: 10px;
+}
+.container button{
+    margin-top: 10px;
+    background-color: rgb(160, 8, 8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+}  
+.content img{
+    width: 400px;
+    height: 400px;
+}
+
+/* FOOTER */
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: #000000;
+    color: rgb(207, 207, 207);
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+}
+.footer-text{
+    color: darkred;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+body {
+    -ms-overflow-style: none; /* cho  Internet Explorer, Edge */
+    scrollbar-width: none; /* cho Firefox */
+    overflow-y: scroll; 
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* cho Chrome, Safari, and Opera */
+  }
+
+
+  :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}
