@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <title> Sign Up</title>
+</head>
+
+<body>
+
+
+    <body>
+      <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <a href="trangchu.html" class="logo"><img src="img/teamvn.jpg" alt="logo" width="50px" ></a>
+        <ul class="nav-links">
+          <i class="uil uil-times navCloseBtn"></i>
+          <li><a href="trangchu.html">Home</a></li>
+          <li><a href="fgc.html">FIRST Global Challenge</a></li>
+          <li><a href="vsu.html">Vietnam STEAM Union</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+          <i class="uil uil-search search-icon"></i>
+          <input type="text" placeholder="Search here..." />
+        </div>
+      </nav>
+
+
+      <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="dangnhap">
+                <h1>Đăng nhập</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>hoặc sử dụng tài khoản</span>
+                <input type="email" id="emaillogin" placeholder="Email" required>
+                <input type="password" id="passwordlogin" placeholder="Mật khẩu" required>
+                <a href="#">Quên mật khẩu?</a>
+                <button type="submit" class="btn">Đăng nhập</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form id="dangky">
+                <h1>Tạo tài khoản</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>hoặc sử dụng email để đăng ký</span>
+                <input type="email" id="emailsignup" placeholder="Email" required>
+                <input type="password" id="passwordsignup" placeholder="Mật khẩu" required>
+                <button type="submit" class="btn">Đăng ký</button>
+            </form>
+        </div>
+        
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-right">
+                    <h1>Chào mừng!</h1>
+                    <p>Nếu bạn chưa từng có tài khoản trước đó, hãy đăng ký tại đây</p>
+                    <button class="hidden" id="register">Đăng ký</button>
+                </div>
+                <div class="toggle-panel toggle-left">
+                    <h1>Xin chào!</h1>
+                    <p>Nếu bạn đã có tài khoản, đăng nhập tại đây</p>
+                    <button class="hidden" id="login">Đăng nhập</button>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
